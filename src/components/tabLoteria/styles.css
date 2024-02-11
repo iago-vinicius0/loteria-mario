@@ -1,0 +1,46 @@
+.containerTab {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    &:hover {
+      transform: scale(1.05);
+      transition: 300ms;
+      cursor: pointer;
+    }
+  }
+  .central-numbersTab {
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .numberTab {
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  button {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #000;
+    &:hover {
+      transform: scale(1.05);
+      transition: 300ms;
+    }
+  }
